@@ -248,7 +248,7 @@ footer input[type="text"], footer textarea{
     .resume-container{
        
         margin: 0 auto;
-        width: 100%;
+        width: 90%;
         padding: 5%;
     }
     /* display column  */
@@ -256,10 +256,21 @@ footer input[type="text"], footer textarea{
     .skill-container,
     .resume-container,
     .banner,
-    nav,
     nav > ul,
     .about-items{
         flex-direction: column;
+    }
+
+    nav {
+        padding: 2%;
+        align-items: flex-start;
+        margin: 0 auto;
+        
+    }
+    nav ul li{
+        list-style: none;
+        margin-right: 0px;
+       
     }
 
     .banner{
