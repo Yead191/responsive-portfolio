@@ -272,6 +272,9 @@ footer input[type="text"], footer textarea{
         margin-right: 0px;
        
     }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
 
     .banner{
         margin: 0 auto;
@@ -367,6 +370,10 @@ footer input[type="text"], footer textarea{
     .banner{
         flex-direction: column;
 
+    }
+    .btn-primary{
+        
+        margin-bottom: 20px;
     }
 
 
